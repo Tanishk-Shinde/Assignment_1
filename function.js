@@ -1,5 +1,5 @@
 
-//function with argument
+// //function with argument
 
 // function sq(x)
 // {
@@ -9,7 +9,7 @@
 // }
 // console.log("Final answer:"+ sq(5));
 
-//function with parameter and arguments
+// //function with parameter and arguments
 
 // const sq = function(4)
 // {
@@ -19,7 +19,7 @@
 // }
 // console.log("final answer: " + sq(2));
 
-//function with parameter
+// //function with parameter
 
 // const sq = function(x=6)
 // {
@@ -29,7 +29,7 @@
 // }
 // console.log("final answer: " + sq());
 
-//Callback functions 
+// //Callback functions 
 
 // function hello(name, fn1)
 // {
@@ -42,16 +42,24 @@
 // }
 // hello("Tanishk", bye);
 
-// function color(cname, cfunction)
-// {
-//     console.log("Hello, "+ cname);
-// cfunction();
-// }
-// function cl()
-// {
-//     console.log("Nice name...");
-// }
-// color("Tanishk", cl);
+// // function color(cname, cfunction)
+// // {
+// //     console.log("Hello, "+ cname);
+// // cfunction();
+// // }
+// // function cl()
+// // {
+// //     console.log("Nice name...");
+// // }
+// // color("Tanishk", cl);
 
-//Arrow function
-
+// function func1(name, fn1)
+// {
+//     console.log("Hello, " + name);
+//     fn1();
+// }
+// function func2()
+// {
+//     console.log("Nice to meet you...");
+// }
+// func1("sanika", func2);
