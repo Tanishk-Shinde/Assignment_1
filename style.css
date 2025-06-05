@@ -1,0 +1,17 @@
+.h1{
+    font-size: 48px;
+    text-align: center;
+    background-color: rgb(8, 2, 46);
+   
+}
+.logo
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+.logo img {
+    height: 60px;
+    width: auto;
+}
