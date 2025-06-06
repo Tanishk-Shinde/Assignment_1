@@ -1,17 +1,16 @@
 .h1{
     font-size: 48px;
     text-align: center;
-    background-color: rgb(8, 2, 46);
+    background-color: rgba(16, 18, 162, 0.288);
    
 }
 .logo
 {
-    position: absolute;
     top: 20px;
-    left: 20px;
-    z-index: 1000;
+    height: 19px;
+    width: 100;
 }
 .logo img {
-    height: 60px;
+    height: 84px;
     width: auto;
 }
